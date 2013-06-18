@@ -1,0 +1,11 @@
+#include <stdlib.h>
+#include <stdio.h>
+
+/* Write a program to determine the ranges of char, short, int and long 
+   variables. */
+int main(void)
+{
+  printf("Sizes of types:\n");
+  printf("char: %d\n",sizeof(char));
+  return 0;
+}
